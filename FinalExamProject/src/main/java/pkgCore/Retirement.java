@@ -94,7 +94,7 @@ public class Retirement {
 	
 	public double TotalAmountSaved()
 	{
-		double r = dAnnualReturnRetired/1200;// assuming inut will be a whole number
+		double r = dAnnualReturnRetired/1200;// assuming input will be a whole number
 		double n = iYearsRetired*12;
 		double p = dRequiredIncome-dMonthlySSI;
 		int f = 0;
